@@ -2,8 +2,8 @@
 }
 .modal-container {
   width: 876px;
-  height: 500px;
-  position: relative;
+  height: 522px;
+  overflow: hidden;
 }
 .modal-container hr {
   margin: 0;

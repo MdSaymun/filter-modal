@@ -1,13 +1,10 @@
 import React from "react";
 import { FormControl, InputLabel, MenuItem, Rating, Select } from "@mui/material";
 import "./Pipeline.css";
+import { useGlobalcontext } from "../../../../utils/Context";
 const Pipeline = ({ index, tabIndex }) => {
-  const [age, setAge] = React.useState("");
-  const [rating, setRating] = React.useState(4.4);
+  const { status, setStatus, rating, setRating } = useGlobalcontext();
 
-  const handleChange = (event) => {
-    setAge(event.target.value);
-  };
   return (
     index === tabIndex && (
       <div className="form-pipeline-main">
@@ -16,10 +13,8 @@ const Pipeline = ({ index, tabIndex }) => {
           <div className="input-field col-md-8">
             <FormControl variant="standard" sx={{ width: "100%" }}>
               <InputLabel id="demo-simple-select-standard-label">Age</InputLabel>
-              <Select labelId="demo-simple-select-standard-label" id="demo-simple-select-standard" value={age} onChange={handleChange} label="Age">
-                <MenuItem value="">
-                  <em>None</em>
-                </MenuItem>
+              <Select labelId="demo-simple-select-standard-label" id="demo-simple-select-standard" value={status} onChange={(e) => setStatus(e.target.value)} label="Age">
+                <MenuItem value="">None</MenuItem>
                 <MenuItem value={10}>Ten</MenuItem>
                 <MenuItem value={20}>Twenty</MenuItem>
                 <MenuItem value={30}>Thirty</MenuItem>

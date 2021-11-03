@@ -7,6 +7,7 @@
   height: 73px;
   padding: 17px 35px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 .modal-footer-main .buttons-modal-footer {
   display: flex;

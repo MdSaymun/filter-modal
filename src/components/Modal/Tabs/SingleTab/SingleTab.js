@@ -48,3 +48,31 @@ const Tab = ({ index, tabIndex, application }) => {
 };
 
 export default Tab;
+
+// import { makeStyles } from "@mui/styles";
+
+//  const styles = makeStyles({
+//    tableCell: {
+//      padding: "16px",
+//    },
+//  });
+//  const classes = styles();
+/* <Modal
+        className={classes.tableCell}
+        open={open}
+        onClose={handleClose}
+        sx={{
+          width: "50% ",
+          backgroundColor: "orange",
+          position: "absolute",
+          top: "0%",
+          left: "auto",
+          right: "0",
+          "& .MuiBackdrop-root": {
+            backgroundColor: "transparent",
+          },
+        }}
+      >
+        <h1>Hello Modal</h1>
+      </Modal> */
+//  }

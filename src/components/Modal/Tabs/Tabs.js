@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Application from "./applications/Application";
 import General from "./general/General";
-import ModalFooter from "./modalFooter/ModalFooter";
 import Pipeline from "./pipeline/Pipeline";
 import "./tabs.css";
 const Tabs = () => {
-  const [index, setIndex] = useState(0);
   const tabName = [{ name: "Applicaiton" }, { name: "Pipeline" }, { name: "General" }];
+  const [index, setIndex] = useState(0);
+
   return (
     <>
       <section className="tabs-main">
@@ -20,12 +20,11 @@ const Tabs = () => {
               );
             })}
           </div>
-          <from className="col-md-9 form-main">
+          <form className="col-md-9 form-main">
             <Application index={index} tabIndex={0} />
             <Pipeline index={index} tabIndex={1} />
             <General index={index} tabIndex={2} />
-            <ModalFooter />
-          </from>
+          </form>
         </div>
       </section>
     </>

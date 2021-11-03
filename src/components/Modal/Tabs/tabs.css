@@ -1,8 +1,15 @@
 .tabs-main {
+  height: 85%;
+  overflow: hidden;
 }
 .tabs-main .tabs-name {
-  /* border-right: 1px solid hsla(208, 13%, 45%, 0.212); */
   padding: 0;
+}
+@media (max-width: 800px) {
+  .tabs-main .tabs-name {
+    display: flex;
+    align-items: center;
+  }
 }
 .tabs-name .tab-name-btn {
   padding: 19px 33px;
@@ -17,6 +24,10 @@
   border-right: 1px solid #34a853;
   background: rgba(52, 168, 83, 0.1);
 }
+.row-tabs-main {
+  position: relative;
+  height: 100%;
+}
 .row-tabs-main .form-main {
-  border-left: 1px solid hsla(208, 100%, 54%, 0.212);
+  border-left: 1px solid hsla(208, 13%, 45%, 0.39);
 }
