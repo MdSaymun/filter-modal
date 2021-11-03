@@ -1,0 +1,24 @@
+.form-application {
+  padding: 0 75px 0 48px;
+}
+.form-application .expected-salery-fileds {
+  padding-top: 30px;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.form-application .application-date-fileds {
+  padding-top: 64px;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.form-application .notice-priod-fileds {
+  padding-top: 64px;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}

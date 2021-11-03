@@ -1,0 +1,22 @@
+.tabs-main {
+}
+.tabs-main .tabs-name {
+  /* border-right: 1px solid hsla(208, 13%, 45%, 0.212); */
+  padding: 0;
+}
+.tabs-name .tab-name-btn {
+  padding: 19px 33px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  width: 100%;
+  text-align: left;
+}
+.tabs-name-btn-active {
+  color: #34a853;
+  border-right: 1px solid #34a853;
+  background: rgba(52, 168, 83, 0.1);
+}
+.row-tabs-main .form-main {
+  border-left: 1px solid hsla(208, 100%, 54%, 0.212);
+}

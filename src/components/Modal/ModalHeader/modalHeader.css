@@ -1,0 +1,17 @@
+.modal-main-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 30px 23px 33px;
+}
+
+.modal-main-header h3 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+}
+.modal-main-header button {
+  background-color: transparent;
+  border: transparent;
+}

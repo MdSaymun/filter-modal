@@ -1,0 +1,31 @@
+.src-filter-main {
+}
+.src-filter-main .container-src-filter {
+  padding: 1rem;
+}
+.row-src-input-filter {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 23px 24px 23px 19px;
+  border-radius: 4px;
+}
+/* .row-src-input-filter .col-src-input-main,
+.col-src-icon,
+.col-filter-button {
+} */
+.row-src-input-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row-src-input-filter .col-src-input-main {
+  flex-grow: 1;
+}
+.row-src-input-filter .col-src-icon {
+}
+.row-src-input-filter .col-filter-button {
+}
+.row-src-input-filter .col-filter-button .btn-filter {
+  display: inline-block;
+  border: transparent;
+  background-color: transparent;
+}

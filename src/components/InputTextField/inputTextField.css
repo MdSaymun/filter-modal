@@ -1,0 +1,11 @@
+.input-text-filed-main {
+  width: 100%;
+}
+.input-text-filed-main input {
+  width: 100%;
+  border: transparent;
+  padding: 0.2rem 1rem;
+}
+input:focus {
+  outline: none;
+}

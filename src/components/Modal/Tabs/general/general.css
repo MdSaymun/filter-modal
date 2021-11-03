@@ -1,0 +1,13 @@
+.row {
+  margin: 0;
+}
+.form-general {
+  padding: 0 75px 0 48px;
+}
+.form-general .row-filds {
+  margin-bottom: 40px;
+}
+.expected-salery-fileds {
+  width: 100%;
+  padding-top: 30px;
+}
